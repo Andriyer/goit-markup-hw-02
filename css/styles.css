@@ -1,0 +1,178 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black  
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.link:focus,
+.link:hover{
+    color: #2196F3;
+}
+/*======Header=======*/
+.main-link{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: black;
+}
+
+.main-link .slice-logo{
+    color: #2196F3;;
+}
+
+.header-nav-list-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+}
+
+.header-nav-list-link{
+    color: black;
+}
+
+.header-list-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+color: #757575;
+}
+/*=====END Header=====*/
+
+/*=====Hero section=====*/
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-btn{
+font-weight: bold;
+font-size: 16px;
+line-height: 1.8;
+min-height: 50px;
+min-width: 200px;
+color: white;
+background-color: #2196F3;
+border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #188CE8;
+    cursor: pointer;
+}
+/*=====End hero section=====*/
+
+/*=====Skills section=====*/
+.skills-list-title{
+font-weight: bold;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.description{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;;
+}
+/*=====End skills section=====*/
+
+/*=====Employment section======*/
+.section-title{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+/*=====End employment section=====*/
+
+/*=====Team section=====*/
+.team-list-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+} 
+/*======End team section====*/
+
+/*======Footer======*/
+.address{
+    font-style: normal;
+}
+
+.address-list-map{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+/*color: white;*/
+}
+
+.address-list-contact{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+/*color: rgba(255, 255, 255, 0.6);*/
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  /*=====End footer=======*/
+
+  /*=====Sidebar======*/
+  .sitebar-list-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+  }
+
+  .sitebar-list-btn:hover,
+  .sitebar-list-btn:focus,
+  .sitebar-list-btn:active{
+    background-color: #2196F3;
+    cursor: pointer;
+    color: white;
+  }
+  /*=====End sidebar======*/
+
+  /*=====Siteposters======*/
+  .siteposters-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  /*=====End siteposters=====*/
